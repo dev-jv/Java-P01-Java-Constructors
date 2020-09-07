@@ -42,13 +42,13 @@ public class Trees {
 	
 
 	
-//	public arboles() {
+//	public Trees() {
 //		
 //		apNombreEjemplar = "";
 //		nombreEsp = "";
 //	}
 
-//		public arboles() {
+//		public Trees() {
 //			
 //	}
 	
@@ -67,30 +67,33 @@ public class Trees {
 		perenne = per;
 		
 	}
+	
+	
+	
+//	public Trees(String ne, double pr) {
+//
+//		this("Indefinido", ne, 2, "Indeterminado", "Hoja", "rojo", "Shohin", pr, false, false, true);
+//	}
+	
+//	public Trees(String ne, double pr) {
+//	
+//		nombreEsp = ne;
+//		precio = pr;
+//	}
+	
 	public Trees(String ne, double pr) {
-
 		
 		nombreEsp = ne;
 		precio = pr;
 		
-//		this("Indefinido", ne, 2, "Indeterminado", "Hoja", "rojo", "Shohin", pr, false, false, true);
-			
+		edad = 5;
+		estilo = "Literati";
+		tipoEspHoja = "Acicula";
+		tamano = "Shohin";
+		caduco = false;
 	}
 	
-//	public arboles(String ne, double pr) {
-//		
-//		nombreEsp = ne;
-//		precio = pr;
-//		
-//		edad = 5;
-//		estilo = "Literati";
-//		tipoEspHoja = "Acicula";
-//		tamano = "Shohin";
-//		caduco = false;
-//
-//	}
-	
-	public String mosDatos() {
+	public String mostrarDatos() {
 		return "\nNombre Dr: " + apNombreEjemplar + "\nNombre Cie.:" + nombreEsp + "\nEdad: " + edad + "\nEstilo: " + estilo + "\nTipo de Hoja: " + tipoEspHoja + "\nColor de Hoja: " + colorHoja + "\nTamaño: " + tamano + "\nPrecio: " + precio + "\nCaduco: " + caduco + "\nSemicaduco: " + semicaduco + "\nPerenne: " + perenne;
 	}
 	
