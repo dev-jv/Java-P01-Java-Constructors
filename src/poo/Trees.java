@@ -84,14 +84,14 @@ public class Trees {
 //		
 //		edad = 5;
 //		estilo = "Literati";
-//		tipoEspHoja = "Acï¿½cula";
-//		tamaï¿½o = "Shohin";
+//		tipoEspHoja = "Acicula";
+//		tamano = "Shohin";
 //		caduco = false;
 //
 //	}
 	
 	public String mosDatos() {
-		return "\nNombre Dr: " + apNombreEjemplar + "\nNombre Cie.:" + nombreEsp + "\nEdad: " + edad + "\nEstilo: " + estilo + "\nTipo de Hoja: " + tipoEspHoja + "\nColor de Hoja: " + colorHoja + "\nTamaï¿½o: " + tamaï¿½o + "\nPrecio: " + precio + "\nCaduco: " + caduco + "\nSemicaduco: " + semicaduco + "\nPerenne: " + perenne;
+		return "\nNombre Dr: " + apNombreEjemplar + "\nNombre Cie.:" + nombreEsp + "\nEdad: " + edad + "\nEstilo: " + estilo + "\nTipo de Hoja: " + tipoEspHoja + "\nColor de Hoja: " + colorHoja + "\nTamaño: " + tamano + "\nPrecio: " + precio + "\nCaduco: " + caduco + "\nSemicaduco: " + semicaduco + "\nPerenne: " + perenne;
 	}
 	
 }
